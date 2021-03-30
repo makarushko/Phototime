@@ -1,0 +1,491 @@
+@font-face {
+    font-family: "Gotham Rounded";
+    src: url('assets/GothamRnd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded";
+    src: url('assets/GothamRnd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+	font-family: "Gotham Rounded";
+	margin: 0;
+	font-size: 8pt;
+}
+
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.yourlife header h1 {
+	display: none;
+}
+
+.yourlife {
+	height: 745px;
+	background-image: url("assets/your-life1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+	color: white;
+	text-transform: uppercase;
+}
+
+.yourlife header {
+	padding-top: 42px;
+	padding-left: 260px;
+	padding-right: 245px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.yourlife header a {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align: top;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 4px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.yourlife header a:hover {
+	text-decoration: none;
+	color: #16a085;
+}
+
+.yourlife header .logo {
+	display: inline-block;
+}
+
+.yourlife .content h2 {
+	font-size: 36px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 5.2px;
+	text-align: center;
+	margin-top: 235px;
+	margin-bottom: 0px;
+}
+
+.yourlife .content p {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2.5px;
+	text-transform: lowercase;
+	margin-top: 7px;
+	margin-bottom: 25px;
+}
+
+.btn {
+	display: block;
+	font-family: "Gotham Rounded";
+	background-color: #16a085;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
+	width: 166px;
+	height: 49px;
+	border-radius: 3px;
+	border: none;
+}
+
+.btn:hover {
+	text-decoration: none;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.btn-yourlife {
+	margin: 0px auto;
+}
+
+.yourlife .links {
+	margin-top: 212px;
+	text-align: center;
+}
+
+.yourlife .links div {
+	display: inline-block;
+	margin: 3px;
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.yourlife .links .twitter {
+	background-image: url('assets/fa-twitter.png');
+}
+
+.yourlife .links .twitter:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.yourlife .links .flickr {
+	background-image: url('assets/fa-flickr.png');
+}
+
+.yourlife .links .flickr:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.yourlife .links .dribbble {
+	background-image: url('assets/fa-dribbble.png');
+}
+
+.yourlife .links .dribbble:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+
+.rappresent {
+	height: 492px;
+	background-color: #f5f6f7;
+	background-image: url('assets/rappresent1.png');
+	background-position: 80% -43.7%;
+	background-repeat: no-repeat;
+}
+
+.rappresent .content {
+	padding-left: 10%;
+	padding-top: 110px;
+}
+
+.btn-rappresent {
+	margin-top: 42px;
+	width: 192px;
+}
+
+.title {
+	font-size: 18px;
+  	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;  
+	margin-top: 1px;
+	margin-left: -2px;
+	color: #16a085;
+	letter-spacing: 2.7px;
+}
+
+.subtitle {
+	color: #373737;
+	margin-top: 35px;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 1.7px;
+}
+
+.design {
+	height: 558px;
+	background-image: url('assets/design1.png');
+	background-position: 12.8% -248%;
+	background-repeat: no-repeat;
+}
+
+.design .content {
+	padding-left: 60%;
+	padding-top: 140px
+}
+
+.design .content .subtitle {
+	line-height: 1.9;
+}
+
+.clear {
+	clear: both;
+}
+
+.design-index {
+	display: inline-block;
+	font-size: 12px;
+	margin-top: 45px;
+	color: rgb(55, 55, 55);
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
+
+#design-button {
+	border-radius: 0px 0px 0px 0px;
+	margin-top: 37px;
+	width: 190px;
+}
+
+.larrow {
+	margin: 0px 0px 0px 0px;
+	width: 11px;
+	height: 16px;
+	background-image: url('assets/fa-angle-left copia.png');
+	border: none;
+	background-color: unset;
+	background-repeat: no-repeat;
+}
+
+.rarrow {
+	margin: 0px 0px 0px 15px;
+	margin-top: 6px;
+	width: 11px;
+	height: 16px;
+	background-image: url('assets/fa-angle-right copia.png');
+	border: none;
+	background-color: unset;
+	background-repeat: no-repeat;
+}
+
+.larrow:hover {
+	cursor: pointer;
+	background-image: url('assets/fa-angle-left copia hover.png');
+
+}
+.rarrow:hover {
+	cursor: pointer;
+	background-image: url('assets/fa-angle-right copia hover.png');
+}
+
+.community {
+	height: 484px;
+	background-color: #f5f6f7;
+}
+
+.community .larrow {
+	margin-left: 1110px;
+	margin-top: 95px;
+}
+
+.community .container {
+	margin-top: 8px;
+	display: flex;
+}
+
+.community .container .element {
+	text-align: center;
+	width: 370px;
+	margin-left: 15px;
+	margin-right: 8px;
+}
+
+.community .container .text-elem {
+	width: 370px;
+	text-align: center;
+}
+
+.community .container .text-elem img {
+	margin-left: 60px;
+	margin-top: 43px;
+}
+
+.community .container .text-elem h3 {
+	margin-top: 27px;
+	margin-left: 64px;
+	font-size: 16px;
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.25;
+	letter-spacing: 2.3px;
+}
+
+.community .slider {
+	display: flex;
+}
+
+.community .container .text-elem p {
+	margin-left: 64px;
+	font-size: 10px;
+	color: rgb(55, 55, 55);
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 1.5px;
+	margin-top: 19px;
+}
+
+.subscribe {
+	height: 790px;
+	background-image: url('assets/subscribe1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.subscribe .title {
+	padding-top: 345px;
+	padding-left: 5px;
+	letter-spacing: 3.6px;
+	font-size: 24px;
+	font-family: "Gotham Rounded";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.subscribe form {
+	text-align: center;
+	display: block;
+	margin-left: 467px;
+	padding-top: 28px;
+}
+
+.subscribe form #email {
+	display: block;
+	height: 58px;
+	width: 258px;
+	border-radius: 3px 0px 0px 3px;
+	font-size: 16px;
+	font-family: "Gotham Rounded";
+	color: rgb(55, 55, 55);
+	text-transform: uppercase;
+	line-height: 1.2;
+	letter-spacing: 2.4px;
+	padding-left: 20px;
+	border: none;
+	margin: 0px;
+	float: left;
+}
+
+.subscribe form #submit {
+	display: block;
+	float: left;
+	height: 60px;
+	width: 62px;
+	margin-left: -10px;
+	border-radius: 0px 3px 3px 0px;
+	background-color: #16a085;
+	border: none;
+	margin: 0px;
+	background-image: url('assets/fa-check.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	content: '';
+}
+
+.subscribe form #submit:hover {
+	background-image: url('assets/fa-check hover.png');
+	cursor: pointer;
+}
+
+.download {
+	height: 385.5px;
+	background-color: #f5f6f7;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.download h2 {
+	margin-top: 75px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.download p {
+	margin-top: 8px;
+	letter-spacing: 1.8px;
+	font-size: 12px;
+	color: rgb(55, 55, 55);
+	text-transform: uppercase;
+	line-height: 1.833;
+}
+
+.download button {
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 3px;
+	letter-spacing: 2.7px;
+	background-color: #1abc9c;
+	border-radius: 3px;
+	border: none; 
+	width: 296px;
+	height: 56px;
+	font-size: 16px;
+	font-family: "Gotham Rounded";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: left;
+}
+
+#apple {
+	padding-left: 20px;
+	background-image: url('assets/fa-apple.png');
+	background-repeat: no-repeat;
+	background-position: 239px 0px;
+}
+
+#play {
+	letter-spacing: 4px;
+	padding-left: 30px;
+	background-image: url('assets/fa-android.png');
+	background-repeat: no-repeat;
+	background-position: 239px 0px;
+}
+
+#apple:hover {
+	background-image: url('assets/fa-apple hover.png');
+	cursor: pointer;
+	color: black;
+}
+
+#play:hover {
+	background-image: url('assets/fa-android hover.png');
+	cursor: pointer;
+	color: black;
+}
+
+.footer {
+	background-image: url('assets/logo-green.png');
+	background-repeat: no-repeat;
+	background-position: 1095px 38px;
+	padding-top: 10px;
+	font-size: 14px;
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+	line-height: 1.2;
+	letter-spacing: 2.1px;
+}
+
+.footer .links {
+	margin-top: 33px;
+	margin-left: 125px;
+}
+
+.footer p {
+	margin-top: 20px;
+}
+
+.footer span {
+	color: #16a085;
+}
+
+.footer a {
+	color: #373737;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.footer a:hover {
+	color: #16a085;
+}
